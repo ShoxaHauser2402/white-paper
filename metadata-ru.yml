@@ -1,0 +1,77 @@
+Название: Децентрализованный протокол для вознаграждения экосистемы с открытым исходным кодом
+Аннотация: |-
+  Создание открытого, общедоступного и стабильного реестра для всего программного обеспечения с открытым исходным кодом
+  позволит проектам публиковать релизы независимо, а не полагаться на
+  третьи стороны, которые собирают эти нерегулярные данные в сотни отдельных
+  (и дублированные) системы. Сопровождающие пакеты будут публиковать свои релизы на
+  децентрализованный реестр на основе византийского отказоустойчивого блокчейна для
+  устранить единые источники сбоя, обеспечить неизменяемые выпуски и разрешить
+  сообщества для управления своими регионами экосистемы с открытым исходным кодом,
+  независимо от внешних программ.
+
+  TEA стимулирует поддержку открытого исходного кода, позволяя сети
+  участники могут делать ставки против пакетов, от которых они зависят и хотят
+  безопасный. Граф протокола TEA обеспечивает неизменяемую регистрацию пакетов,
+  требования к зависимостям, подлинность пакета и использование оракулов для информирования
+  алгоритм вознаграждения TEA. Систематическая инфляция распространяется на всех
+  пакеты на основе этого алгоритма. Если проблемы с безопасностью или разработкой
+  обнаружены, разработчики могут предъявлять требования к пакету, подкрепленные доказательствами,
+  и может произойти порез. Члены сообщества открытого исходного кода могут просматривать
+  пакеты для проблем с качеством, и протокол может отвечать на эти отзывы
+  путем принятия пропорциональных рубящих событий.
+автор:
+- Макс Хауэлл
+- Тимоти Льюис
+- Томас Боррел
+использованная литература:
+- идентификатор: источники
+  адрес: https://github.com/teaxyz/white-paper
+- идентификатор: копия
+  URL: https://creativecommons.org/licenses/by-sa/4.0/
+- идентификатор: nist
+  URL: https://nvd.nist.gov/vuln/detail/CVE-2021-44228
+- идентификатор: Рейтерс
+  URL: https://www.reuters.com/article/usa-cyber-vulnerability-idCNL1N2SY2PA
+- идентификатор: твиттер
+  URL: https://twitter.com/yazicivo/status/1469349956880408583
+- идентификатор: w3
+  URL: https://www.w3.org/TR/did-core/
+- id: регистрация
+  URL: https://www.theregister.com/2016/03/23/npm_left_pad_chaos/
+- идентификатор: ямка
+  URL: https://fossa.com/blog/npm-packages-colors-faker-corrupted/
+- идентификатор: лунасек
+  URL: https://www.lunasec.io/docs/blog/node-ipc-protestware/
+- идентификатор: гитхаб
+  URL: https://github.com/dominictarr/event-stream/issues/116
+- идентификатор: зднет
+  URL: https://www.zdnet.com/article/open-source-software-how-many-bugs-are-hidden-there-on-purpose/
+- идентификатор: сообщение угрозы
+  URL: https://threatpost.com/backdoor-found-in-utility-for-linux/147581/
+- идентификатор: ФБР
+  URL: https://www.fbi.gov/news/stories/phantom-secure-takedown-031618
+- идентификатор: европол
+  URL: https://www.europol.europa.eu/media-press/newsroom/news/800-criminals-arrested-in-biggest-ever-law-enforcement-operation-against-encrypted-communication
+- идентификатор: средний
+  URL: https://medium.com/intrinsic-blog/compromised-npm-package-event-stream-d47d08605502
+- идентификатор: семвер
+  адрес: https://semver.org/
+- идентификатор: npmjsCrossenv
+  URL: https://blog.npmjs.org/post/163723642530/crossenv-malware-on-the-npm-registry.html
+- идентификатор: npmjsLodash
+  URL: https://www.npmjs.com/package/lodash
+- идентификатор: npmjsChalk
+  URL-адрес: https://www.npmjs.com/package/chalk
+- идентификатор: npmjsLogFourjs
+  URL: https://www.npmjs.com/package/log4js/
+- идентификатор: архив
+  адрес: https://arxiv.org/abs/1207.2617/
+- идентификатор: web3
+  URL-адрес: https://research.web3.foundation/en/latest/polkadot/overview/2-token-economics.html.
+заголовок-включает в себя:
+- \usepackage{fancyhdr,ragged2e}
+- \lhead{\parbox[t]{0,5\textwidth}{\RaggedRight\rightmark\strut}}
+- \rhead{\parbox[t]{0,5\textwidth}{\RaggedLeft\leftmark\strut}}
+- \setlength{\headheight}{5\baselineskip}
+- \pagestyle{причудливый}
+- \fancyfoot[LE,RO]{© 2022 tea.inc.}
