@@ -68,10 +68,13 @@
   адрес: https://arxiv.org/abs/1207.2617/
 - идентификатор: web3
   URL-адрес: https://research.web3.foundation/en/latest/polkadot/overview/2-token-economics.html.
-заголовок-включает в себя:
-- \usepackage{fancyhdr,ragged2e}
-- \lhead{\parbox[t]{0,5\textwidth}{\RaggedRight\rightmark\strut}}
-- \rhead{\parbox[t]{0,5\textwidth}{\RaggedLeft\leftmark\strut}}
-- \setlength{\headheight}{5\baselineskip}
-- \pagestyle{причудливый}
-- \fancyfoot[LE,RO]{© 2022 tea.inc.}
+header includes:
+lang: two-latter language code here:https://pandoc.org/MANUAL.html#language-variables
+dir:ltr # language direction;
+ltr:left-to-right;
+rtl:right-to-left;
+
+header includes:
+-\fancyfoot[L]{${VERSION}+${RU}}
+- Shohrukh Burkhonov
+
